@@ -1,0 +1,39 @@
+Until 23th 
+1.	Have to learn how to implement 
+a.	Learn practicality 
+2.	Finish techniques + extracting features 
+3.	
+
+
+
+
+
+
+Techniques
+1.	Bag of words 
+2.	Paragraph vector 
+3.	One-hot vectors 
+
+
+Classifiers: 
+1.	SVM 
+2.	Naïve Bayes
+3.	Logistic regression 
+4.	Neural Networks 
+a.	FFNN(possibly) 
+
+
+
+We are expecting the best result from doc2vec and NN 
+
+
+Extracting features. 
+1.	Lowercase 
+2.	Remove punctuation 
+3.	Stopword vs non-stopword (optional) -> maybe exclude “no” or “not”
+4.	Spelling correction (optional) (e.g. ID:758 1hr -> 1 hour) 
+5.	Lemmantization vs stemming  (lemmanatization might works better)
+6.	
+Text semantics and similarity 
+
+
