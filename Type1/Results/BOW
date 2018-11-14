@@ -1,0 +1,49 @@
+No of features:
+Unigram:9701, Bigram: 44206, Uni-Bi gram: 53907
+
+
+Naive Bayes: Unigram 
+
+Naive Bayes Model score: 0.662
+Naive Bayes Model confusion matrix:
+[[143 107]
+ [ 62 188]]
+0.597256449622
+ Naive Bayes: Bigram 
+
+Naive Bayes Model score: 0.634
+Naive Bayes Model confusion matrix:
+[[116 134]
+ [ 49 201]]
+0.613962734253
+ Naive Bayes: UniBigram 
+
+Naive Bayes Model score: 0.672
+Naive Bayes Model confusion matrix:
+[[132 118]
+ [ 46 204]]
+0.592497774512
+--- preprocessing -> naive bayes :10.5701720715 seconds ---
+-------------------------------------------
+Logistic Regresssion: Unigram
+/Volumes/Barly/Anaconda2/lib/python2.7/site-packages/sklearn/linear_model/sag.py:326: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Logistic Regression score: 0.688
+Logistic Regression confusion matrix:
+[[173  77]
+ [ 79 171]]
+0.595373452785
+Logistic Regresssion: Bigram
+Logistic Regression score: 0.656
+Logistic Regression confusion matrix:
+[[148 102]
+ [ 70 180]]
+0.75701778019
+Logistic Regresssion: UniBigram
+Logistic Regression score: 0.672
+Logistic Regression confusion matrix:
+[[163  87]
+ [ 77 173]]
+0.58821146082
+--- naive bayes -> logistic regression :9239.29647899 seconds ---
+-------------------------------------------

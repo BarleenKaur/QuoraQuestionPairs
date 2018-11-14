@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf100
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red254\green212\blue213;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c100000\c86667\c86667;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl340\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+--- start -> preprocessing:1.58473801613 seconds ---\
+\
+\
+ Naive bayes result on doc2vec_embedding: \
+Naive Bayes Model score: 0.508\
+Naive Bayes Model confusion matrix:\
+[[184  66]\
+ [180  70]]\
+0.689727491735\
+--- preprocessing -> naive bayes :0.00852704048157 seconds ---\
+-------------------------------------------\
+\
+\
+ Logistic Regression result on doc2vec_embedding: \
+\pard\pardeftab720\sl340\qr\partightenfactor0
+\cf2 \cb1 \
+\pard\pardeftab720\sl340\partightenfactor0
+\cf2 \cb4 /Volumes/Barly/Anaconda2/lib/python2.7/site-packages/sklearn/linear_model/sag.py:326: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge\
+  "the coef_ did not converge", ConvergenceWarning)\
+\pard\pardeftab720\sl340\qr\partightenfactor0
+\cf2 \cb1 \
+\pard\pardeftab720\sl340\partightenfactor0
+\cf2 \cb3 Logistic Regression score: 0.51\
+Logistic Regression confusion matrix:\
+[[179  71]\
+ [174  76]]\
+0.692971949503\
+--- naive bayes -> logistic regression :13.4653730392 seconds ---\
+-------------------------------------------\
+\
+\
+ Linear SVM result on doc2vec_embedding: \
+SVC score: 0.544\
+SVC confusionmatrix:\
+[[184  66]\
+ [162  88]]\
+--- logistic regression -> linear svm :492.409399033 seconds ---\
+--- TOTAL TIME: 507.468380928 seconds ---\cb1 \
+}

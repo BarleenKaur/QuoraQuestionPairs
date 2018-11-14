@@ -1,0 +1,57 @@
+c= 1
+-------------------------------------------
+Linear SVM: Unigram
+Linear SVM: Bigram
+SVC score: 0.656
+SVC confusionmatrix:
+[[148 102]
+ [ 70 180]]
+Linear SVM: UniBigram
+SVC score: 0.658
+SVC confusionmatrix:
+[[149 101]
+ [ 70 180]]
+
+
+C=0.1
+ -------------------------------------------
+Linear SVM: Unigram
+Linear SVM: Bigram
+SVC score: 0.664
+SVC confusionmatrix:
+[[159  91]
+ [ 77 173]]
+Linear SVM: UniBigram
+SVC score: 0.682
+SVC confusionmatrix:
+[[169  81]
+ [ 78 172]]
+
+
+C= 10
+ -------------------------------------------
+Linear SVM: Unigram
+Linear SVM: Bigram
+SVC score: 0.654
+SVC confusionmatrix:
+[[147 103]
+ [ 70 180]]
+Linear SVM: UniBigram
+SVC score: 0.65
+SVC confusionmatrix:
+[[149 101]
+ [ 74 176]]
+
+c=100
+ -------------------------------------------
+Linear SVM: Unigram
+Linear SVM: Bigram
+SVC score: 0.654
+SVC confusionmatrix:
+[[147 103]
+ [ 70 180]]
+Linear SVM: UniBigram
+SVC score: 0.646
+SVC confusionmatrix:
+[[148 102]
+ [ 75 175]]
